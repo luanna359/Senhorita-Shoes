@@ -1,0 +1,25 @@
+SENHORITA SHOES - CRUD DE LOJA DE CALÇADOS
+
+ESTRUTURA:
+Senhorita_Shoes/
+├── app.py
+├── requirements.txt
+├── templates/
+│   └── index.html
+└── static/
+    ├── style.css
+    └── script.js
+
+COMO EXECUTAR:
+1. Abra a pasta Senhorita_Shoes no VS Code.
+2. Abra o terminal nessa pasta.
+3. Instale o Flask: pip install -r requirements.txt
+4. Execute: python app.py
+5. Abra no navegador: http://127.0.0.1:5000
+
+O projeto tem abas de início, cadastro, login, estoque/CRUD,
+carrinho e pagamento simulado, e suporte.
+
+Observação: os dados dos produtos, carrinho e clientes são armazenados
+no localStorage do navegador. O login e o pagamento são demonstrações
+front-end, não um sistema de autenticação ou pagamento real.
